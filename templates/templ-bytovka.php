@@ -19,11 +19,6 @@
     <main>
       <div class="content">
         <div class="grid-container">
-          <!-- <ul class="breadcrumbs">
-            <li><a href="/">Главная</a></li>
-            <li><a href="/catalog.php">Аренда бытовки</a></li>
-            <li><span><?php echo $database['bytovka-list'][$bytovka]['title']?></span></li>
-          </ul> -->
           <?php
             include_once('./templates/blocks/breadcrumbs.php');
           ?>

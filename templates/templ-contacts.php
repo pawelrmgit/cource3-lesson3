@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<?php
+  <?php
     include_once('./templates/blocks/head.php');
   ?>
   <body>
