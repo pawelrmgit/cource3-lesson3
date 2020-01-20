@@ -19,7 +19,7 @@
             <div class="logo_text">Аренда бытовок и блок контейнеров с 2008 г.</div></a></div>
         <div class="header_menu">
             <ul class="menu">
-            <li><a href="/catalog.php">Аренда бытовки</a>
+            <li><a href="/catalog.php">Аренда бытовок</a>
                 <ul class="submenu">
                     <?php
                         foreach ($database['category-town'] as $key => $value) {
