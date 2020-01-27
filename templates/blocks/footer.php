@@ -23,7 +23,7 @@
           <div class="grid-x">
             <div class="footer_copyright"><span>2005-2018 © ООО «Бытовки-Сервис»</span><a class="politics" href="#">Обработка персональных данных</a></div>
             <div class="footer_info">
-              <div class="footer_address"><i class="icon-address"></i>ул. Молодогвардейская, д. 58, стр.13, офис 28.<br>Мы работаем: Пн - Пт с 9:00 до 18:00</div>
+              <div class="footer_address"><i class="icon-address"></i><?=$database['about-us']['adr']?><br>Мы работаем: <?=$database['about-us']['worktime']?></div>
               <div class="footer_mail"><a class="mail" href="mailto:5084145@mail.ru"><i class="icon-mail"></i>5084145@mail.ru</a></div>
             </div>
           </div>

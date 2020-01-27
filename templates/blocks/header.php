@@ -2,8 +2,8 @@
     <div class="header_top">
     <div class="grid-container">
         <div class="grid-x">
-        <div class="header_address"><i class="icon-address"></i>ул. Молодогвардейская, д. 58, стр.13, офис 28.
-            Мы работаем: Пн - Пт с 10:00 до 19:00
+        <div class="header_address"><i class="icon-address"></i><?=$database['about-us']['adr']?>
+            Мы работаем: <?=$database['about-us']['worktime']?>
         </div>
         <div class="header_contacts"><a class="mail" href="mailto:5084145@mail.ru"><i class="icon-mail"></i>5084145@mail.ru</a>
             <div class="header_phones"><a class="phone" href="tel:+74957985563">+7 (495) 798-55-63</a><a class="phone" href="tel:+74956418568">+7 (495) 641-85-68</a></div>
